@@ -23,3 +23,24 @@
 
     if __name__ == '__main__':
         main()
+
+## 格式化输出
+1.
+
+    
+        a, b = 5, 10
+        print('%d * %d = %d' % (a, b, a * b))
+    
+2.
+
+        a, b = 5, 10
+        print('{0} * {1} = {2}'.format(a, b, a * b))
+
+3.
+
+        a, b = 5, 10
+        print(f'{a} * {b} = {a * b}')
+
+
+
+
